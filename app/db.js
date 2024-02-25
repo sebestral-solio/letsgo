@@ -9,6 +9,7 @@ async function start() {
   module.exports = client
   const app = require("./app")
   app.listen(process.env.PORT)
+  console.log("Running on port 8080")
 }
 
 start()
